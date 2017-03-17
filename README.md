@@ -218,6 +218,14 @@ Enable to move the image.
 Enable to zoom the image.
 
 
+### playable
+
+- Type: `Boolean`
+- Default: `true`
+
+Enable to play a slide-show
+
+
 ### rotatable
 
 - Type: `Boolean`
@@ -232,6 +240,14 @@ Enable to rotate the image.
 - Default: `true`
 
 Enable to scale the image.
+
+
+### flippable
+
+- Type: `Boolean`
+- Default: `true`
+
+Enable to flip the image over. Needs also `scalable` turned on.
 
 
 ### transition

@@ -140,13 +140,7 @@ class Viewer {
     $.toggleClass(toolbar.querySelector('.viewer-play'), 'viewer-invisible', !options.playable);
     $.toggleClass(toolbar.querySelectorAll('li[class*="zoom"]'), 'viewer-invisible', !options.zoomable);
     $.toggleClass(toolbar.querySelectorAll('li[class*="flip"]'), 'viewer-invisible', !options.scalable);
-
-    if (!options.rotatable) {
-      const rotates = toolbar.querySelectorAll('li[class*="rotate"]');
-
-      $.addClass(rotates, 'viewer-invisible');
-      $.appendChild(toolbar, rotates);
-    }
+    $.toggleClass(toolbar.querySelectorAll('li[class*="rotate"]'), 'viewer-invisible', !options.rotatable);
 
     if (options.inline) {
       $.addClass(button, 'viewer-fullscreen');

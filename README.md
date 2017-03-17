@@ -218,6 +218,14 @@ Enable to move the image.
 Enable to zoom the image.
 
 
+### playable
+
+- Type: `Boolean`
+- Default: `true`
+
+Enable to play a slide-show
+
+
 ### rotatable
 
 - Type: `Boolean`

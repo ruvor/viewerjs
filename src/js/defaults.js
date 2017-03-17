@@ -23,6 +23,9 @@ export default {
   // Enable to zoom the image
   zoomable: true,
 
+  // Enable to play a slide-show
+  playable: true,
+
   // Enable to rotate the image
   rotatable: true,
 

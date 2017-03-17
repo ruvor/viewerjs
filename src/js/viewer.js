@@ -137,6 +137,7 @@ class Viewer {
     $.toggleClass(button, 'viewer-hide', !options.button);
 
     $.toggleClass(toolbar.querySelector('.viewer-one-to-one'), 'viewer-invisible', !options.zoomable);
+    $.toggleClass(toolbar.querySelector('.viewer-play'), 'viewer-invisible', !options.playable);
     $.toggleClass(toolbar.querySelectorAll('li[class*="zoom"]'), 'viewer-invisible', !options.zoomable);
     $.toggleClass(toolbar.querySelectorAll('li[class*="flip"]'), 'viewer-invisible', !options.scalable);
 
